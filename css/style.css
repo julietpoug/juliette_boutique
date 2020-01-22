@@ -1,0 +1,15 @@
+/* feuille de style de la boutique */
+body {
+    background: pink;
+}
+#conteneur {
+    background-color: whitesmoke;
+    width: 1000px;
+    height: 500px;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif
+}
+/* header {
+    width: 1000px;
+    height: 100px;
+} */
