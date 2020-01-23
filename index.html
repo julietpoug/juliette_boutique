@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Boutique</title>
+    <!-- font google pour la div besoin d'aide  -->
+    <link href="https://fonts.googleapis.com/css?family=Caveat+Brush&display=swap" rel="stylesheet"> 
+
     <!-- le lien vers la feuille de style -->
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -18,30 +21,32 @@
              <!-- le logo -->
                 
             <div id="logo"> 
-                <a href="#logo"> 
-                <img src="img/logo (1).png" alt="boutique">
+                <img src="img/logo_1.png" alt="boutique">
             </div>
 
-            <div>
+            <div id="slogan">
                 <!-- la div pour le titre du site -->
-                <div id="slogan"><h1>Ma boutique</h1></div>
+                <h1>Ma boutique</h1>
                 <div><h4>Vente en ligne, Mode, Tendance et Déco</h4></div>
             </div>
             <!-- besoin d'aide -->
-            <div>
-                <div class="aide"><h2>Besoin d'aide ?</h2><div>
+            <div id="aide">
+                <h2>Besoin d'aide ?</h2>
                 <div class="imgaide">
                     <img src="img/aide.png" alt="boutique">
+                    <p>0800 10 28 10</p>
                 </div>
-                <div class="jours"><h4>Du lundi au vendredi de 10h à 17h30</h4></div>    
-            </div>
-            <div>
-                <div class="compte"><h3>Mon compte</h3></div>
+                <div class="jours"><h4>Du lundi au vendredi de 10h à 17h30</h4></div> 
+            </div>   
+            <div id="compte">
+                <div><h3>Mon compte</h3></div>
                 <div class="panier">
-                    <img src="img/article.png" alt="boutique"><span>article(s) dans votre panier</span>
+                    <img src="img/article.png" alt="boutique">
+                    <p>article(s) dans votre panier</p>
                 </div>
             </div>
         </header>
+        
 
         <!-- la classe clear -->
         <div class="clear"></div>
@@ -62,7 +67,8 @@
             <div class="bandeau">
                 <img src="img/bandeau.png" alt="boutique">    
             </div>
-            <div class="texte">
+
+            <div class="text">
                 <!-- la div des moyens de paiements -->
                 <div class="paiement">
                     <div>
@@ -72,11 +78,15 @@
                     <div>
                         <img src="img/paiement.png" alt="boutique">
                     </div>
-                </div>
+                 </div>
 
                 <!-- la div qui sommes nous -->
                 <div class="vision">
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum obcaecati quaerat unde voluptatem non corrupti tenetur, temporibus ipsum praesentium eligendi nisi delectus? Nesciunt maxime culpa veniam veritatis. Dolores, accusamus accusantium pour RDV</p>
+                    <h4>Qui sommes nous?</h4>
+                    <p>Bienvenue chez MaBoutique ! MaBoutique est la plus grande boutique en ligne de France consacrée à la mode et à la beauté pour femmes et hommes.
+                    Nous proposons plus de 850 marques ainsi que nos propres collections.
+                    N'hésitez plus ! les livraisons et les retour sont gratuits.
+                    Retrait possible de votre commande dans notre entrepôt sur RDV.</p>
                 </div>
 
                 <!-- la div services -->
@@ -86,13 +96,17 @@
                     </div>
                     <div class="livraison">
                         <img src="img/camion.png" alt="boutique">
+                        <!-- <p>Livraison sous 48h</p> -->
                     </div>
                     <div class="echange">
                         <img src="img/echange.png" alt="boutique">
+                        <!-- <p>Produits Echangéables</p> -->
                     </div>
                 </div>
+            </div>
+            <div class="clear"></div>
 
-                <!-- la div photos -->
+            <!-- la div photos -->
             <div class="photos">
                 <div class="robe">
                     <h4>Bon Plan</h4>
@@ -100,12 +114,12 @@
                         <img src="img/robe.png" alt="boutique">
                     </div>
                     <div>
-                        <p>bloc bloc bloc bloc bloc bloc</p>
-                        <p>bloc bloc bloc bloc bloc bloc</p>
-                        <p>bloc bloc bloc bloc bloc bloc</p>
-                        <p>bloc bloc bloc bloc bloc bloc</p>
-                        <p>bloc bloc bloc bloc bloc bloc</p>
-                        <p>bloc bloc bloc bloc bloc bloc</p> 
+                        <p>bloc bloc bloc bloc bloc bloc bloc</p>
+                        <p>bloc bloc bloc bloc bloc bloc bloc</p>
+                        <p>bloc bloc bloc bloc bloc bloc bloc</p>
+                        <p>bloc bloc bloc bloc bloc bloc bloc</p>
+                        <p>bloc bloc bloc bloc bloc bloc bloc</p>
+                        <p>bloc bloc bloc bloc bloc bloc bloc</p> 
                         <h5>voir</h5>
                     </div>
                 </div>
@@ -113,7 +127,7 @@
                 <div class="chaussure">
                     <h4>Coup de coeur</h4>
                     <div>
-                        <img src="img/robe.png" alt="boutique">
+                        <img src="img/talons.png" alt="boutique">
                     </div>
                     <div>
                         <p>bloc bloc bloc bloc bloc bloc</p>
@@ -123,14 +137,14 @@
                         <p>bloc bloc bloc bloc bloc bloc</p>
                         <p>bloc bloc bloc bloc bloc bloc</p> 
                         <h5>voir</h5>
-                    </div>
+                </div>
 
                 </div>
                 <!-- objectif plaisir -->
                 <div class="chemise">
                     <h4>Objectif Plaisir</h4>
                     <div>
-                        <img src="img/robe.png" alt="boutique">
+                        <img src="img/chemise.png" alt="boutique">
                     </div>
                     <div>
                         <p>bloc bloc bloc bloc bloc bloc</p>
@@ -141,15 +155,15 @@
                         <p>bloc bloc bloc bloc bloc bloc</p> 
                         <h5>voir</h5>
                     </div>
-
                 </div>
-
             </div>
         </main>
 
+        <div class="clear"></div>
+
         <!-- le pied de page -->
         <footer>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero eligendi magnam veniam ad nisi. Nostrum dicta repellat officiis quo minima sapiente sunt, praesentium fuga delectus non sint, nam, nesciunt dolores?</p>
+            <p>Newsletter - Promotions - Nouveaux produits - Meilleures vents - Mentions Légales - Conditions Générales de Vente - Contactez-nous</p>
         </footer>
 
     </div>
